@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ImpactFlow - Transforme visitas em doações reais. Landing pages modernas, rápidas e integradas com pagamentos para ONGs.">
+    
+    <title>ImpactFlow | Plataforma de Arrecadação de Doações para ONGs</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">   
+    
+    <link rel="preload" as="image" href="./images/pets-watermark.webp">
+    
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <div class="bg-glow-1"></div>
+    <div class="bg-glow-2"></div>
+
+    <svg class="paw-deco" style="top: 12%; left: 3%;" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M4.5 10c.83 0 1.5-.67 1.5-1.5S5.33 7 4.5 7 3 7.67 3 8.5 3.67 10 4.5 10zm4-3c.83 0 1.5-.67 1.5-1.5S9.33 4 8.5 4 7 4.67 7 5.5 7.67 7 8.5 7zm7 0c.83 0 1.5-.67 1.5-1.5S16.67 4 15.5 4s-1.5.67-1.5 1.5.67 1.5 1.5 1.5zm4 3c.83 0 1.5-.67 1.5-1.5S20.33 7 19.5 7s-1.5 0.67-1.5 1.5.67 1.5 1.5 1.5zm-7.5 3c-2.48 0-4.5 2.02-4.5 4.5 0 2.22 3.47 5.75 4.12 6.39.2.2.52.2.71 0 .66-.64 4.12-4.17 4.12-6.39 0-2.48-2.02-4.5-4.5-4.5z"/></svg>
+    <svg class="paw-deco" style="top: 45%; right: 4%;" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M4.5 10c.83 0 1.5-.67 1.5-1.5S5.33 7 4.5 7 3 7.67 3 8.5 3.67 10 4.5 10zm4-3c.83 0 1.5-.67 1.5-1.5S9.33 4 8.5 4 7 4.67 7 5.5 7.67 7 8.5 7zm7 0c.83 0 1.5-.67 1.5-1.5S16.67 4 15.5 4s-1.5.67-1.5 1.5.67 1.5 1.5 1.5zm4 3c.83 0 1.5-.67 1.5-1.5S20.33 7 19.5 7s-1.5 0.67-1.5 1.5.67 1.5 1.5 1.5zm-7.5 3c-2.48 0-4.5 2.02-4.5 4.5 0 2.22 3.47 5.75 4.12 6.39.2.2.52.2.71 0 .66-.64 4.12-4.17 4.12-6.39 0-2.48-2.02-4.5-4.5-4.5z"/></svg>
+
+    <div class="pet-floating-donation" onclick="window.location.hash='#doar'">
+        <img src="./images/pet-donation-mascot.webp" alt="Doe agora">
+    </div>
+
+    <a href="#doar" class="floating-cta">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+        Apoiar Causa
+    </a>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                </span>
+                ImpactFlow
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#problems" class="nav-link">Desafios</a></li>
+                <li><a href="#solucoes" class="nav-link">Nossa Solução</a></li>
+                <li><a href="#como-funciona" class="nav-link">Como funciona</a></li>
+                <li><a href="#impacto" class="nav-link">Impacto Real</a></li>
+            </ul>
+            <div>
+                <a href="#doar" class="btn btn-secondary" style="margin-right: 12px; padding: 10px 20px; font-size: 0.9rem;">Ver simulação</a>
+                <a href="#cta" class="btn btn-primary" style="padding: 10px 20px; font-size: 0.9rem;">Potencializar ONG</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <h1>Transforme visitas em <span class="gradient-text">doações reais</span>.</h1>
+                <p>A ImpactFlow ajuda abrigos e protetores de animais a arrecadarem mais através de páginas fluidas, acolhedoras e integradas com pagamentos instantâneos.</p>
+                <div class="hero-actions">
+                    <a href="#cta" class="btn btn-primary" style="padding: 16px 36px;">Quero arrecadar mais</a>
+                    <a href="#doar" class="btn btn-secondary" style="padding: 16px 36px;">Ver demonstração</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="dashboard-mockup">
+                    <div class="mockup-header">
+                        <div class="mockup-dot" style="background: #ff6b6b; width: 10px; height: 10px;"></div>
+                        <div class="mockup-dot" style="background: #ffb86b; width: 10px; height: 10px;"></div>
+                        <div class="mockup-dot" style="background: #31c48d; width: 10px; height: 10px;"></div>
+                        <span style="font-size: 0.75rem; color: var(--azul-suave); margin-left: 10px; font-weight: 500;">dashboard/causa-animal</span>
+                    </div>
+                    <span style="font-size: 0.85rem; color: var(--azul-suave); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Apoio aos Abrigos</span>
+                    <h3 style="font-size: 2.25rem; font-weight: 800; margin: 6px 0 28px 0; color: var(--azul-profundo);">R$ 48.250,00</h3>
+                    
+                    <div class="mockup-chart">
+                        <div class="chart-bar" style="height: 40%;"></div>
+                        <div class="chart-bar" style="height: 60%;"></div>
+                        <div class="chart-bar" style="height: 55%;"></div>
+                        <div class="chart-bar active" style="height: 90%;"></div>
+                    </div>
+                </div>
+                
+                <div class="floating-card">
+                    <div style="width: 10px; height: 10px; background-color: var(--verde-esmeralda); border-radius: 50%;"></div>
+                    <span style="font-weight: 700; font-size: 0.9rem; color: var(--azul-profundo);">+R$ 12.450 em ração</span>
+                </div>
+                <div class="floating-badge">
+                    <span>🐾</span>
+                    <span>1.240 vidas protegidas</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="problems" class="problems">
+        <div class="container">
+            <span class="section-tag">Gargalos de Arrecadação</span>
+            <h2 class="section-title">Por que grandes causas perdem doações digitais?</h2>
+            <p class="section-subtitle">A urgência e a comoção pelos animais muitas vezes esbarram em barreiras tecnológicas frias e obsoletas.</p>
+            
+            <div class="grid-cards">
+                <div class="card">
+                    <div class="card-icon">
+                        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
+                    </div>
+                    <h3>Páginas lentas e instáveis</h3>
+                    <p>Em resgates críticos, telas que demoram para carregar dispersam a intenção de apoio imediato do doador.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636"/></svg>
+                    </div>
+                    <h3>Checkout burocrático</h3>
+                    <p>Formulários extensos e a falta de links diretos de Pix reduzem drasticamente as contribuições impulsivas.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"/></svg>
+                    </div>
+                    <h3>Ausência de conexão viva</h3>
+                    <p>Sem um apelo estético humanizado, o potencial benfeitor não visualiza o impacto real da sua ajuda.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="solucoes" class="solutions">
+        <div class="container solutions-grid">
+            <div>
+                <span class="section-tag">A Tecnologia Humanizada</span>
+                <h2 class="section-title">Uma experiência moldada para acolher e converter.</h2>
+                <p class="section-subtitle">Unimos segurança financeira e interfaces empáticas para aproximar corações generosos dos animais que mais necessitam.</p>
+            </div>
+            <div class="solutions-list">
+                <div class="sol-item">
+                    <h4>
+                        <svg width="20" height="20" fill="var(--verde-esmeralda)" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                        Engajamento Emocional
+                    </h4>
+                    <p style="font-size: 0.95rem; color: var(--azul-suave);">Visual acolhedor focado em destacar histórias reais de resgate.</p>
+                </div>
+                <div class="sol-item">
+                    <h4>
+                        <svg width="20" height="20" fill="var(--verde-esmeralda)" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                        Fluxo de Pix Sem Atrito
+                    </h4>
+                    <p style="font-size: 0.95rem; color: var(--azul-suave);">Processamento transparente com confirmação instantânea em tela.</p>
+                </div>
+                <div class="sol-item">
+                    <h4>
+                        <svg width="20" height="20" fill="var(--verde-esmeralda)" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                        Metas Visuais Ativas
+                    </h4>
+                    <p style="font-size: 0.95rem; color: var(--azul-suave);">Barras de progresso elegantes que motivam novas microdoações.</p>
+                </div>
+                <div class="sol-item">
+                    <h4>
+                        <svg width="20" height="20" fill="var(--verde-esmeralda)" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                        Experiência Mobile Meticulosa
+                    </h4>
+                    <p style="font-size: 0.95rem; color: var(--azul-suave);">Interface projetada com precisão para toques e ações rápidas no smartphone.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="como-funciona" class="how-it-works">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 64px;">
+                <span class="section-tag">Pronto para Divulgar</span>
+                <h2 class="section-title">Ativação simplificada de ponta a ponta</h2>
+            </div>
+            
+            <div class="steps-container">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <h3 style="font-size: 1.25rem; margin-bottom: 14px; font-weight: 700; color: var(--azul-profundo);">Moldamos sua página</h3>
+                    <p style="color: var(--azul-suave); font-size: 0.95rem; line-height: 1.65;">Uma estrutura premium e adaptada para refletir a seriedade e a doçura do seu projeto de proteção animal.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <h3 style="font-size: 1.25rem; margin-bottom: 14px; font-weight: 700; color: var(--azul-profundo);">Acoplamos o checkout</h3>
+                    <p style="color: var(--azul-suave); font-size: 0.95rem; line-height: 1.65;">Gateways de alta fidelidade ligam as doações diretamente à conta bancária oficial da sua instituição.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <h3 style="font-size: 1.25rem; margin-bottom: 14px; font-weight: 700; color: var(--azul-profundo);">Sua causa prospera</h3>
+                    <p style="color: var(--azul-suave); font-size: 0.95rem; line-height: 1.65;">Acompanhe o fluxo de entradas em relatórios claros, permitindo focar no que importa: salvar vidas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="impacto" class="impact">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 64px;">
+                <span class="section-tag" style="background-color: rgba(255, 255, 255, 0.08); color: var(--verde-esmeralda);">Impacto Coletivo</span>
+                <h2 class="section-title">Resultados gerados pela nossa tecnologia</h2>
+            </div>
+
+            <div class="metrics-display">
+                <div class="metric-item">
+                    <text>+120</text>
+                    <label>Protetores Amparados</label>
+                </div>
+                <div class="metric-item">
+                    <text>R$ 2M</text>
+                    <label>Arrecadados Diretos</label>
+                </div>
+                <div class="metric-item">
+                    <text>+38%</text>
+                    <label>Crescimento Médio</label>
+                </div>
+                <div class="metric-item">
+                    <text>15k</text>
+                    <label>Animais Alimentados</label>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 64px;">
+                <span class="section-tag">Vozes Fortes</span>
+                <h2 class="section-title">Quem confia na nossa infraestrutura</h2>
+            </div>
+
+            <div class="testimonial-grid">
+                <div class="test-card">
+                    <p class="test-content">"Migrar nossas arrecadações para a estrutura da ImpactFlow mudou nossa realidade. A facilidade do Pix dinâmico impulsionou nossas doações noturnas em resgates."</p>
+                    <div class="test-user">
+                        <div class="test-avatar" style="background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);"></div>
+                        <div class="test-info">
+                            <h5>Mariana Souza</h5>
+                            <span>Santuário Patas Livres</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="test-card">
+                    <p class="test-content">"O cuidado estético e a clareza nas metas geraram imensa confiança nos nossos apoiadores. Arrecadamos o valor da reforma do gatil em tempo recorde."</p>
+                    <div class="test-user">
+                        <div class="test-avatar" style="background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);"></div>
+                        <div class="test-info">
+                            <h5>Carlos Eduardo</h5>
+                            <span>ONG Resgate & Amor</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="test-card">
+                    <p class="test-content">"A velocidade de carregamento mobile salvou nossa campanha de emergência veterinária. Conseguimos centralizar os apoios sem nenhuma fricção."</p>
+                    <div class="test-user">
+                        <div class="test-avatar" style="background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);"></div>
+                        <div class="test-info">
+                            <h5>Glória Pires</h5>
+                            <span>Defesa Animal Ativa</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="doar" class="donation-section">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 56px;">
+                <span class="section-tag">Coração da Plataforma</span>
+                <h2 class="section-title">Vivencie a fluidez do nosso checkout</h2>
+                <p class="section-subtitle" style="margin: 0 auto 32px auto;">Faça uma simulação rápida e comprove a leveza com que os seus doadores contribuirão para a alimentação e o tratamento dos animais.</p>
+            </div>
+
+            <div class="donation-widget">
+                <label style="font-weight: 700; font-size: 0.95rem; color: var(--azul-profundo);">Selecione um valor de amparo</label>
+                <div class="donation-grid">
+                    <button class="amt-btn" data-value="10">R$ 10</button>
+                    <button class="amt-btn active" data-value="25">R$ 25</button>
+                    <button class="amt-btn" data-value="50">R$ 50</button>
+                    <button class="amt-btn" data-value="100">R$ 100</button>
+                </div>
+
+                <div class="custom-amt-box">
+                    <span>R$</span>
+                    <input type="number" id="custom-amount" value="25" min="5" placeholder="Livre contribuição">
+                </div>
+
+                <button class="btn btn-pix" style="width: 100%; padding: 18px; margin-bottom: 14px; font-weight: 700; gap: 10px;">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 12h3v8h6v-6h2v6h6v-8h3L12 2z"/></svg>
+                    Contribuir via Pix Instantâneo
+                </button>
+                <button class="btn btn-secondary" style="width: 100%; padding: 18px; font-weight: 700;">Apoiar com Cartão de Crédito</button>
+                
+                <p style="font-size: 0.8rem; color: var(--azul-suave); text-align: center; margin-top: 22px; font-weight: 500; display: flex; align-items: center; justify-content: center; gap: 4px;">
+                    🛡️ Ambiente seguro e auditado padrão SaaS.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 64px;">
+                <span class="section-tag">Esclarecimentos</span>
+                <h2 class="section-title">Perguntas Frequentes</h2>
+            </div>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-trigger">Como as doações chegam até a minha ONG? <span>+</span></button>
+                    <div class="faq-content">
+                        <p>O repasse é processado de forma direta pelo ecossistema financeiro parceiro e encaminhado imediatamente à conta bancária jurídica vinculada à instituição.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-trigger">A plataforma conta com suporte a Pix recorrente? <span>+</span></button>
+                    <div class="faq-content">
+                        <p>Sim. A infraestrutura possibilita a programação de doações contínuas e recorrentes facilitando a previsibilidade financeira da ONG.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-trigger">Quais são as taxas de manutenção? <span>+</span></button>
+                    <div class="faq-content">
+                        <p>Não possuímos custos fixos de adesão. Há apenas uma pequena taxa sobre transações bem-sucedidas dedicada a manter a estabilidade dos servidores em campanhas volumosas.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-trigger">Consigo integrar com as cores do meu abrigo? <span>+</span></button>
+                    <div class="faq-content">
+                        <p>Totalmente. O painel administrativo permite flexibilidade visual para aplicar paletas, logos e fotografias marcantes dos animais acolhidos.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-trigger">A página suporta picos de acessos em campanhas de TV? <span>+</span></button>
+                    <div class="faq-content">
+                        <p>Sim. Desenvolvemos o carregamento com foco em performance premium resiliente a grandes picos de tráfego simultâneo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta" class="cta-final">
+        <div class="container cta-final-box">
+            <h2>A sua causa animal merece uma presença digital no nível do impacto humano que ela causa.</h2>
+            <a href="#" class="btn btn-cta-final">Expandir Arrecadação</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <span class="logo-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                        </span>
+                        ImpactFlow
+                    </a>
+                    <p>Elevando projetos sociais a novos patamares de arrecadação sustentável com engenharia de ponta e afeição visual.</p>
+                </div>
+                <div class="footer-links">
+                    <h6>Plataforma</h6>
+                    <ul>
+                        <li><a href="#solucoes">Diferenciais</a></li>
+                        <li><a href="#como-funciona">Processo</a></li>
+                        <li><a href="#doar">Simulador</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h6>Institucional</h6>
+                    <ul>
+                        <li><a href="#">Propósito</a></li>
+                        <li><a href="#">Contato Comercial</a></li>
+                        <li><a href="#">Diretrizes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h6>Ecossistema</h6>
+                    <ul>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Parcerias</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 ImpactFlow. Todos os direitos reservados à causa social.</p>
+                <div style="display: flex; gap: 24px;">
+                    <a href="#">Termos operacionais</a>
+                    <a href="#">Segurança de dados</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script src="./js/main.js"></script>
+
+</body>
+</html>
