@@ -1,3 +1,4 @@
+/* global document */
 <script>
     // Lógica Básica do Widget de Doação
     const amountButtons = document.querySelectorAll('.amt-btn');
