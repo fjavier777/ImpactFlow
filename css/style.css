@@ -375,6 +375,7 @@ body {
 
 .hero-content h1 span.gradient-text {
     background: var(--gradiente-premium);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -672,6 +673,7 @@ body {
     display: block;
     margin-bottom: 12px;
     background: var(--gradiente-premium);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     letter-spacing: -0.03em;
@@ -775,6 +777,7 @@ body {
     border-radius: 36px;
     padding: 1.5px;
     background: linear-gradient(135deg, rgba(49, 196, 141, 0.25) 0%, rgba(79, 172, 254, 0.25) 100%);
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
     mask-composite: exclude;
